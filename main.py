@@ -1,4 +1,4 @@
-cd /root/bot/ && cat > spotify_bot.py << 'EOF'
+#cd /root/bot/ && cat > spotify_bot.py << 'EOF'
 #!/usr/bin/env python3
 """
 Telegram Bot - Spotify Offer Link Generator
@@ -342,7 +342,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         logger.info("🛑 Bot stopped.")
         sys.exit(0)
-EOF
+# EOF
 
 # Run the bot
-cd /root/bot/ && python3 spotify_bot.py
+# cd /root/bot/ && python3 spotify_bot.py
